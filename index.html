@@ -8,20 +8,20 @@
 </head>
 
 <body>
-    <header>
+    <header style="color: red; background: black;">
         <figure>
             <img src="images/leigmar.png" alt="Logo de http://leigmar.com">
         </figure>
         <nav>
             <ol>
                 <li>
-                    <a href="#">portafolio</a>
+                    <a href="#portafolio">portafolio</a>
                 </li>
                 <li>
-                    <a href="#">Experiencia</a>
+                    <a href="#eventos">Experiencia</a>
                 </li>
                 <li>
-                    <a href="#">Trabajemos juntos</a>
+                    <a href="#contacto">Trabajemos juntos</a>
                 </li>
             </ol>
         </nav>
@@ -32,7 +32,7 @@
         </h1>
         <img src="images"> imagen de portada
     </section>
-    <section>
+    <section id="portafolio">
         <h2>Portafolio (Proyectos destacados)</h2>
         <article>
             <h3>Platzi video</h3>
@@ -42,7 +42,7 @@
             <p>Aquí va la descripción del proyecto</p>
         </article>
     </section>
-    <section>
+    <section id="eventos"> 
         <h2>Más sobre mi experiencia</h2>
         <article>
             <figure>
@@ -50,10 +50,16 @@
             </figure>
             <h3>PlatziConf México 2018</h3>
             <p>Descripción del evento</p>
-            <a>Ver plática</a>
+            <a href="https://testtt.com" target="_blank">Ver plática</a>
         </article>
     </section>
-    <section>Sección contacto</section>
+    <section id="contacto">
+        <form action="/suscripcion/">
+            <h3>¿Construimos algo?</h3>
+            <input type="text" placeholder="Déjame tu e-mail" id="email">
+            <button>Enviar</button>
+        </form>
+    </section>
     <footer>footer</footer>
 
 </body>
