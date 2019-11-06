@@ -1,0 +1,23 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
+header {
+    background: pink;
+}
+
+/* selector de etiqueta (header - section - article - nav) */
+
+/* El siguiente es un selector
+body header div nav ol li a  {} */
+
+/* selector de clase . */
+
+/* .portafolio  */
+
+/* selector de id  */
+/* #portafolio */
+
+
